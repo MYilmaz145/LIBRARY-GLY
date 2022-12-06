@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+  }
+
+ul{
+    padding: 0%;
+    
+    margin: 0 0 0 250px;
+    list-style: none;
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background: black;
+}
+li{
+    float: left;
+}
+li a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    text-align: center;
+
+}
+li a:hover{
+    background: gray;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+
+}
+
+h1{
+    font-weight: normal;
+    font-size: 50px;
+    position: relative;
+    margin: 40px 0;
+   font-style: initial;
+   color: rgb(39, 6, 88);
+}
+
+h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color:black;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+}
+
+header {
+    background: url(/html/images/new-york.jpg);
+    height: 100vh;
+    -webkit-backgound-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.album-flexbox {
+	position: relative;
+	height: 230px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px rgb(148, 42, 42);
+	cursor: pointer;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.album-flexbox img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	transition: 0.5s;
+	position: relative;
+}
+
+
+.album-flexbox img:hover {
+	filter: brightness(70%);
+	
+}
