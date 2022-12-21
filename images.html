@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt Projekt</title>
+    <link rel="stylesheet" href="/html/css/images.css">
+</head>
+
+<body>
+    <div class="galleryContainer">
+    <div class="fullImg" id="fullImgBox">
+        <span onclick="closeFullImgg()">X</span>
+        <img src="/html/images/City.jpg" id="fullImgg" class="urspår" > 
+        <button id="next" onclick="nextPage()">Next</button>
+        <button id="prev" onclick="prevPage()">Prev</button>  
+           
+    </div>
+    <div class="imgGallery">
+        <img src="/html/images/City.jpg"onclick="openFullImgg(this.src)">
+        <img src="/html/images/logo.png" onclick="openFullImgg(this.src)">
+        <img src="/html/images/Naturbild.gif"onclick="openFullImgg(this.src)">
+        
+    </div>
+  
+
+
+    </div>
+  
+
+    
+</body>
+
+<script src="/html/javascript/images.js"></script>
+<script src="/html/javascript/slider.js"></script>
+
+</html>     
