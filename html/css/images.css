@@ -77,3 +77,117 @@ body{
     background: black;
 
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+  }
+
+ul{
+    padding: 0%;
+    margin: 0 0 0 250px;
+    list-style: none;
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background: black;
+}
+li{
+    float: left;
+}
+li a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    text-align: center;
+
+}
+li a:hover{
+    background: gray;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+
+}
+
+h1{
+    font-weight: normal;
+    font-size: 50px;
+    position: relative;
+    margin: 40px 0;
+   font-style: initial;
+   color: rgb(39, 6, 88);
+}
+
+h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color:black;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 100px;
+    }
+
+    50%{
+        width: 200px;
+
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+header {
+    background: url(/html/images/new-york.jpg);
+    height: 100vh;
+    -webkit-backgound-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.edit-btn{
+    color: #000000;
+    position: absolute;
+	font-size: 20px;
+    background-color: red;
+}
+.edit-btn:hover{
+    filter: brightness(70%);
+}
+.edit-btn1{
+    color: #000000;
+    position: absolute;
+	font-size: 20px;
+    left: 40%;
+    background-color: red;
+}
+.edit-btn1:hover{
+    filter: brightness(70%);
+}
+.edit-btn2{
+    color: #000000;
+    position: absolute;
+	font-size: 20px;
+    right: 512px;
+    background-color: red;
+}
+.edit-btn2:hover{
+    filter: brightness(70%);
+}

@@ -1,5 +1,5 @@
 var slider_img = document.querySelector('.urspår');
-var images = ['city.jpg','logo.png','naturbild.gif','new-york.jpg'];
+var images = ['city.jpg','logo.png','naturbild.gif'];
 var i = 0;
 
 function prevPage(){
