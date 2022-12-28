@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt Projekt</title>
+    <link rel="stylesheet" href="/html/css/images.css">
+    <script src="https://kit.fontawesome.com/4a0be8cbd8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+   
+        <div class="container">
+            <h1>Newton's Fotogalleri</h1>
+           
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/album.html">Albums</a></li>
+                    <li><a href="#">Contact</a></li>
+    
+                </ul>
+    
+            </nav>
+    <div class="galleryContainer">
+    <div class="fullImg" id="fullImgBox">
+        <span onclick="closeFullImgg()">X</span>
+        <img src="/html/images/City.jpg" id="fullImgg" class="urspår" >
+        <button id="next" onclick="nextPage()">Next</button>
+        <button id="prev" onclick="prevPage()">Prev</button> 
+           
+    </div>
+    <div class="imgGallery">
+        <img src="/html/images/City.jpg"onclick="openFullImgg(this.src)">
+        <button id="1" class="edit-btn">
+            <i class="fa-solid fa-pen-to-square"></i>
+    </button>
+        <img src="/html/images/logo.png" onclick="openFullImgg(this.src)">
+        <button id="2" class="edit-btn1">
+            <i class="fa-solid fa-pen-to-square"></i>
+    </button>
+        <img src="/html/images/Naturbild.gif"onclick="openFullImgg(this.src)">
+        <button id="3" class="edit-btn2">
+            <i class="fa-solid fa-pen-to-square"></i>
+    </button>
+    <div id="modal" class="modal-box">
+        <div class="modal-text-center">
+            <div class="myModal">
+            <label for="input" class="form-label">title:</label>
+            <input type="text"
+            class="form-control"
+            id="titleinput"
+            placeholder=""
+            />
+        </div>
+        </div>
+        <div class="myModal">
+        <label for="textArea" class="form-label"> comment</label>
+        <textarea class="form-control" id="commentInput" rows="3"></textarea>
+    </div>
+    <button id="changeBtn" class="editBtn">Edit</button>
+    <div class="alertError">Please Write your title and comment!</div>
+    </div>
+    </div>
+
+    </div>
+    </header>
+
+
+<script src="/html/javascript/images.js"></script>
+<script src="/html/javascript/slider.js"></script>
+<script src="/html/javascript/edit.js"></script>
+
+
+</body>
+</html>     
