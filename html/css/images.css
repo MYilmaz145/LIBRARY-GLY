@@ -162,33 +162,33 @@ header {
     position: relative;
 }
 
-.edit-btn{
+.imgGallery #edit-btn{
     color: #000000;
     position: absolute;
 	font-size: 20px;
     background-color: red;
 }
-.edit-btn:hover{
+.imgGallery #edit-btn:hover{
     filter: brightness(70%);
 }
-.edit-btn1{
+.imgGallery #edit-btn1{
     color: #000000;
     position: absolute;
 	font-size: 20px;
     left: 40%;
     background-color: red;
 }
-.edit-btn1:hover{
+.imgGallery #edit-btn1:hover{
     filter: brightness(70%);
 }
-.edit-btn2{
+.imgGallery #edit-btn2{
     color: #000000;
     position: absolute;
 	font-size: 20px;
     right: 512px;
     background-color: red;
 }
-.edit-btn2:hover{
+.imgGallery #edit-btn2:hover{
     filter: brightness(70%);
 }
 .modal-box{
