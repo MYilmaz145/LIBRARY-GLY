@@ -35,34 +35,25 @@
     </div>
     <div class="imgGallery">
         <img src="/html/images/City.jpg"onclick="openFullImgg(this.src)">
-        <button id="edit-btn" onclick="openModal()">
+        <button id="edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
-    </button>
+        </button>
         <img src="/html/images/logo.png" onclick="openFullImgg(this.src)">
-        <button id="edit-btn1" onclick="openModal()">
+        <button id="edit-btn1">
             <i class="fa-solid fa-pen-to-square"></i>
     </button>
         <img src="/html/images/Naturbild.gif"onclick="openFullImgg(this.src)">
-        <button id="edit-btn2" onclick="openModal()">
+        <button id="edit-btn2">
             <i class="fa-solid fa-pen-to-square"></i>
     </button>
 
-    <div id="modal" class="modal-box">
+    <div id="newModal" class="modal-box">
+        <span onclick="closeModal()">X</span>
         <div class="modalContent text-center">
-            <div class="myModal">
-            <label for="input" class="form-label">Title:</label>
-            <input type="text"
-            class="form-control"
-            id="titleinput"
-            placeholder=""/>
-        </div>
-        </div>
-        <div class="myModal">
-        <label for="textArea" class="form-label"> Comment</label>
-        <textarea class="form-control" id="commentInput" rows="3"></textarea>
-    </div>
-    <button id="changeBtn" class="editBtn">Edit</button>
-    <div class="alertError">Please Write your title and comment!</div>
+            <input placeholder="Title" id="titleInput">
+            <textarea rows="3" placeholder="Write a comment" id="commentInput"></textarea>
+            <button id= "submit" onclick="submitText()">Submit</button>
+            
     </div>
     </div>
 
