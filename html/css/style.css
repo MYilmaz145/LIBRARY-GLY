@@ -46,7 +46,7 @@ h1{
     position: relative;
     margin: 40px 0;
    font-style: initial;
-   color: rgb(39, 6, 88);
+   color: orangered;
 }
 
 h1::before{

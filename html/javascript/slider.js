@@ -1,5 +1,5 @@
 var slider_img = document.querySelector('.urspår');
-var images = ['city.jpg','logo.png','naturbild.gif'];
+var images = ['allianz.jpg','oldTraffold.jpg','olympic.jpg','Tele2.jpg','Tottenham.jpg', 'qatar.webp'];
 var i = 0;
 
 function prevPage(){

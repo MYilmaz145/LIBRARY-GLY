@@ -125,7 +125,7 @@ h1{
     position: relative;
     margin: 40px 0;
    font-style: initial;
-   color: rgb(39, 6, 88);
+   color: orangered;
 }
 
 h1::before{
@@ -175,7 +175,7 @@ header {
     color: #000000;
     position: absolute;
 	font-size: 20px;
-    left: 40%;
+    left: 30%;
     background-color: red;
 }
 .imgGallery #edit-btn1:hover{
@@ -185,10 +185,43 @@ header {
     color: #000000;
     position: absolute;
 	font-size: 20px;
-    right: 512px;
+    right: 725px;
     background-color: red;
 }
 .imgGallery #edit-btn2:hover{
+    filter: brightness(70%);
+}
+.imgGallery #edit-btn3 {
+    color: #000000;
+    position: absolute;
+	font-size: 20px;
+    right: 410px;
+    top: 35%;
+    background-color: red;
+}
+.imgGallery #edit-btn3:hover{
+    filter: brightness(70%);
+}
+
+.imgGallery #edit-btn4 {
+    color: #000000;
+    position: absolute;
+	font-size: 20px;
+    top: 63%;
+    background-color: red;
+}
+.imgGallery #edit-btn4:hover{
+    filter: brightness(70%);
+}
+.imgGallery #edit-btn5 {
+    color: #000000;
+    position: absolute;
+	font-size: 20px;
+    top: 63%;
+    left: 460px;
+    background-color: red;
+}
+.imgGallery #edit-btn5:hover{
     filter: brightness(70%);
 }
 .modal-box{

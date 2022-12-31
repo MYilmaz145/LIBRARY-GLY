@@ -13,6 +13,20 @@ document.getElementById("edit-btn2").addEventListener("click", function(){
     document.getElementById("submit").style.display = "flex";
 })
 
+document.getElementById("edit-btn3").addEventListener("click", function(){
+    document.querySelector(".modal-box").style.display = "flex";
+    document.getElementById("submit").style.display = "flex";
+})
+
+document.getElementById("edit-btn4").addEventListener("click", function(){
+    document.querySelector(".modal-box").style.display = "flex";
+    document.getElementById("submit").style.display = "flex";
+})
+document.getElementById("edit-btn5").addEventListener("click", function(){
+    document.querySelector(".modal-box").style.display = "flex";
+    document.getElementById("submit").style.display = "flex";
+})
+
 function submitText(){
     let titleInput = document.getElementById('titleInput').value;
     let message = document.getElementById('commentInput').value;
