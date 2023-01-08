@@ -33,34 +33,76 @@
         <button id="prev" onclick="prevPage()">Prev</button> 
            
     </div>
-    <div class="imgGallery">
+    <div class="imgGallery" id ="album-grid">
+        <div class="album-gridbox">
         <img src="/html/images/allianz.jpg"onclick="openFullImgg(this.src)">
-        <button id="edit-btn">
+        <button id= "1" class = "edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
         </button>
+        <p id="title1" class="title"> allianz</p>
+        <p id="comment1" class="comment">sjdnln </p>
+        </div>
+
+
+        <div class="album-gridbox">
         <img src="/html/images/oldTraffold.jpg" onclick="openFullImgg(this.src)">
-        <button id="edit-btn1">
+        <button id= "2" class ="edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
     </button>
+    <span id="title2" class="title"></span>
+    <div><span id="comment2" class="comment"></span></div>
+        </div>
+
+
+        <div class="album-gridbox">
         <img src="/html/images/olympic.jpg"onclick="openFullImgg(this.src)">
-        <button id="edit-btn2">
+        <button id= "3" class ="edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
     </button>
+    <span id="title3" class="title"></span>
+    <div><span id="comment3" class="comment"></span></div>
+        </div>
+
+
+        <div class="album-gridbox">
     <img src="/html/images/Tele2.jpg"onclick="openFullImgg(this.src)">
-    <button id="edit-btn3">
+    <button id= "4" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
+    <span id="title4" class="title"></span>
+    <div><span id="comment4" class="comment"></span></div>
+        </div>
+
+
+        <div class="album-gridbox">
     <img src="/html/images/Tottenham.jpg"onclick="openFullImgg(this.src)">
-    <button id="edit-btn4">
+    <button id= "5" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
+    <span id="title5" class="title"></span>
+    <div><span id="comment5" class="comment"></span></div>
+        </div>
+
+
+        <div class="album-gridbox">
     <img src="/html/images/qatar.webp"onclick="openFullImgg(this.src)">
-    <button id="edit-btn5">
+    <button id= "6" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
+    <span id="title6" class="title"></span>
+    <div><span id="comment6" class="comment"></span></div>
+        </div>
+
+
+    <div>
+        <span id="fullTitle"></span>
+    </div>
+
+    <div id="commentFullview">
+        <span id="fullComment"></span>
+    </div>
 
     <div id="newModal" class="modal-box">
-        <span onclick="closeModal()">X</span>
         <div class="modalContent text-center">
             <input placeholder="Title" id="titleInput">
             <textarea rows="3" placeholder="Write a comment" id="commentInput"></textarea>
