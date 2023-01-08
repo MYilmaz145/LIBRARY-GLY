@@ -25,13 +25,10 @@ document.getElementById("6").addEventListener("click", function(){
 
 
 function submitText(){
-    const submit = document.getElementById('submit')[0];
     let titleInput = document.getElementById('titleInput').value;
     let message = document.getElementById('commentInput').value;
-    if (submit == '1'){
-        titleInput = $(".title2").innerHTML;
-        message = $(".comment2").innerHTML;
-    }
+    document.getElementById("title1").innerHTML = titleInput;
+    document.getElementById("comment1").innerHTML = message;
     console.log(titleInput);
     console.log(message);
     document.getElementById("submit").style.display = "none";
