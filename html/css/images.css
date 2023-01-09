@@ -165,7 +165,7 @@ header {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 15px;
-	grid-row-gap: 100px;
+    grid-auto-rows: 200px;
 }
 .album-gridbox {
 	position: relative;
@@ -175,7 +175,7 @@ header {
 	min-width: 250px;
 	border-radius: 10px;
 	cursor: pointer;
-	margin-top: 20px;
+	margin-top: 60px;
 	margin-bottom: 20px; 
 }
 .album-gridbox img {
@@ -241,18 +241,18 @@ header {
 
 .title{
 	position: absolute;
-	color: white;
-	top: -30px;
-    left: 80px;
+	color: orangered;
+	top: -35px;
+    left: 30px;
 	font-size: 25px;
 	cursor: auto;
-    background: #000000;
+    background: black;
 } 
 .comment{ 
 	position: relative;
 	text-align: center;
 	cursor: default;
-	color: white;
+	color: orangered;
     top: 250px;
-    background: #000000;
+    background: black;
  }

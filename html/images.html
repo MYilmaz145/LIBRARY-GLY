@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitt Projekt</title>
     <link rel="stylesheet" href="/html/css/images.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/4a0be8cbd8.js" crossorigin="anonymous"></script>
 </head>
 
@@ -35,17 +37,17 @@
     </div>
     <div class="imgGallery" id ="album-grid">
         <div class="album-gridbox">
-        <img src="/html/images/allianz.jpg"onclick="openFullImgg(this.src)">
+        <img src="/html/images/allianz.jpg" id = "p1" onclick="openFullImgg(this.src)">
         <button id= "1" class = "edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
         </button>
-        <p id="title1" class="title"> allianz</p>
-        <p id="comment1" class="comment">sjdnln </p>
+        <span id="title1" class="title"></span>
+        <span id="comment1" class="comment"></span>
         </div>
 
 
         <div class="album-gridbox">
-        <img src="/html/images/oldTraffold.jpg" onclick="openFullImgg(this.src)">
+        <img src="/html/images/oldTraffold.jpg" id = "p2" onclick="openFullImgg(this.src)">
         <button id= "2" class ="edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -55,7 +57,7 @@
 
 
         <div class="album-gridbox">
-        <img src="/html/images/olympic.jpg"onclick="openFullImgg(this.src)">
+        <img src="/html/images/olympic.jpg" id = "p3" onclick="openFullImgg(this.src)">
         <button id= "3" class ="edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -65,7 +67,7 @@
 
 
         <div class="album-gridbox">
-    <img src="/html/images/Tele2.jpg"onclick="openFullImgg(this.src)">
+    <img src="/html/images/Tele2.jpg" id = "p4" onclick="openFullImgg(this.src)">
     <button id= "4" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -75,7 +77,7 @@
 
 
         <div class="album-gridbox">
-    <img src="/html/images/Tottenham.jpg"onclick="openFullImgg(this.src)">
+    <img src="/html/images/Tottenham.jpg" id = "p5" onclick="openFullImgg(this.src)">
     <button id= "5" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -85,7 +87,7 @@
 
 
         <div class="album-gridbox">
-    <img src="/html/images/qatar.webp"onclick="openFullImgg(this.src)">
+    <img src="/html/images/qatar.webp" id = "p6" onclick="openFullImgg(this.src)">
     <button id= "6" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -106,7 +108,7 @@
         <div class="modalContent text-center">
             <input placeholder="Title" id="titleInput">
             <textarea rows="3" placeholder="Write a comment" id="commentInput"></textarea>
-            <button id= "submit" onclick="submitText()">Submit</button>
+            <button id= "change" class="submit">Submit</button>
             
     </div>
     </div>
