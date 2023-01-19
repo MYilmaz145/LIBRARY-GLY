@@ -26,7 +26,6 @@ function setImage(){
 var listArray = [];
 
 var checkboxes = document.querySelectorAll('.checkbox');
-console.log(checkboxes + " checkbox variabel");
 for(var checkbox of checkboxes){
     checkbox.addEventListener('click', function(){
         if(this.checked == true){
@@ -40,9 +39,8 @@ for(var checkbox of checkboxes){
     })
 }
 function switchOnId(id){
-    console.log(id + " id för switch");
-    const idd = id;
-    switch(idd){
+    const ids = id;
+    switch(ids){
         case "check1":
         listArray.push(document.getElementById("p1"));
         
@@ -76,9 +74,7 @@ function switchOnId(id){
 function showSlideShow(){
     const array = listArray.slice();
     listArray = [];
-    console.log(array + " this is an array");
     const slideelement = document.getElementById("slideshow");
-    console.log("rad 63");
     let counter = 0;
     let elementCounter = document.querySelectorAll(".mySlides");
     array.forEach(element => {
@@ -86,7 +82,6 @@ function showSlideShow(){
         const imgelement1 = document.createElement("img");
         imgelement1.className = 'mySlides';
         imgelement1.src = element.src;
-        console.log(counter);
         if (counter == 0 && elementCounter.length == 0){ 
         imgelement1.style.display = "block";
         }
@@ -95,7 +90,6 @@ function showSlideShow(){
         }
         counter++;
         slideelement.appendChild(imgelement1);
-        console.log(counter);
     });
     
 }
@@ -116,3 +110,8 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+function clearContent(){
+    document.getElementById("slideshow").style.display = "none";
+    document.getElementsByClassName("slideContainer").style.display = "inline"
+    }

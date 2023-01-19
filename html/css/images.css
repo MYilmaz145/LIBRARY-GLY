@@ -270,6 +270,9 @@ header {
 	background-color: darkblue;
 	cursor: pointer;
  }
+ .buttons:hover{
+    filter: brightness(70%);
+ }
 
  .slideContainer{
 	position: relative;
@@ -288,4 +291,14 @@ header {
  .mySlides{
     width: 150%;
     height: 150%;
+ }
+ .buttonClear{
+	margin-top: 10px;
+	padding: 10px;
+	margin-left: 10px;
+	background-color: darkblue;
+	cursor: pointer;
+ }
+ .buttonClear:hover{
+    filter: brightness(70%);
  }
