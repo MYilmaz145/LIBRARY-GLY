@@ -13,6 +13,7 @@ function openFullImgg(pic){
     document.getElementById("4").style.display="none"
     document.getElementById("5").style.display="none"
     document.getElementById("6").style.display="none"
+    document.getElementById(".mySlides").style.display="none"
 }
 
 function closeFullImgg() {

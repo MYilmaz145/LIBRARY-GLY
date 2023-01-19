@@ -256,3 +256,36 @@ header {
     top: 250px;
     background: black;
  }
+ .album-gridbox .checkbox{
+    position:absolute;
+    left: 235px;
+    z-index: 1;
+    opacity: 1;
+   }
+
+ .buttons{
+	margin-top: 10px;
+	padding: 10px;
+	margin-left: 10px;
+	background-color: darkblue;
+	cursor: pointer;
+ }
+
+ .slideContainer{
+	position: relative;
+	text-align: center;
+ }
+ .slideshowButtons{
+	position: relative;
+	text-align: center;
+}
+ .slideshow{
+	position: relative;
+	width: 40%;
+	margin-left: auto;
+    margin-right: auto;
+ }
+ .mySlides{
+    width: 150%;
+    height: 150%;
+ }

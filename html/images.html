@@ -27,6 +27,18 @@
                 </ul>
     
             </nav>
+
+            <div class="slideContainer">
+				<div class="slideshowButtons">
+				<button class="buttons" id="buttonEnable" onclick="showSlideShow()">Slideshow View</button>
+				<button class="buttons" onclick="plusDivs(-1)">Prev</button>
+				<button class="buttons" onclick="plusDivs(1)">Next </button>
+				</div>
+				</div>
+			<div id="slideshow" class="slideshow">
+				<!--lägg till hur många bilder-->
+				</div>
+                
     <div class="galleryContainer">
     <div class="fullImg" id="fullImgBox">
         <span onclick="closeFullImgg()">X</span>
@@ -38,6 +50,7 @@
     <div class="imgGallery" id ="album-grid">
         <div class="album-gridbox">
         <img src="/html/images/allianz.jpg" id = "p1" onclick="openFullImgg(this.src)">
+        <input type="checkbox" class="checkbox" id="check1">
         <button id= "1" class = "edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
         </button>
@@ -48,6 +61,7 @@
 
         <div class="album-gridbox">
         <img src="/html/images/oldTraffold.jpg" id = "p2" onclick="openFullImgg(this.src)">
+        <input type="checkbox" class="checkbox" id="check2">
         <button id= "2" class ="edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -58,6 +72,7 @@
 
         <div class="album-gridbox">
         <img src="/html/images/olympic.jpg" id = "p3" onclick="openFullImgg(this.src)">
+        <input type="checkbox" class="checkbox" id="check3">
         <button id= "3" class ="edit-btn">
             <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -68,6 +83,7 @@
 
         <div class="album-gridbox">
     <img src="/html/images/Tele2.jpg" id = "p4" onclick="openFullImgg(this.src)">
+    <input type="checkbox" class="checkbox" id="check4">
     <button id= "4" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -78,6 +94,7 @@
 
         <div class="album-gridbox">
     <img src="/html/images/Tottenham.jpg" id = "p5" onclick="openFullImgg(this.src)">
+    <input type="checkbox" class="checkbox" id="check5">
     <button id= "5" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
@@ -88,6 +105,7 @@
 
         <div class="album-gridbox">
     <img src="/html/images/qatar.webp" id = "p6" onclick="openFullImgg(this.src)">
+    <input type="checkbox" class="checkbox" id="check6">
     <button id= "6" class ="edit-btn">
         <i class="fa-solid fa-pen-to-square"></i>
     </button>
