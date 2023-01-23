@@ -24,19 +24,24 @@ $(document).ready(function () {
         if (modalOpen == '1') {
 			titleDisplay = $('#title1');
 			commentDisplay = $('#comment1');
-		} if (modalOpen == '2') {
+		} 
+		if (modalOpen == '2') {
 			titleDisplay = $('#title2');
 			commentDisplay = $('#comment2');
-		} if (modalOpen == '3') {
+		} 
+		if (modalOpen == '3') {
 			titleDisplay = $('#title3');
 			commentDisplay = $('#comment3');
-		} if (modalOpen == '4') {
+		} 
+		if (modalOpen == '4') {
 			titleDisplay = $('#title4');
 			commentDisplay = $('#comment4');
-		} if (modalOpen == '5') {
+		} 
+		if (modalOpen == '5') {
 			titleDisplay = $('#title5');
 			commentDisplay = $('#comment5');
-		} if (modalOpen == '6') {
+		} 
+		if (modalOpen == '6') {
 			titleDisplay = $('#title6');
 			commentDisplay = $('#comment6');
 		}

@@ -258,17 +258,22 @@ header {
  }
  .album-gridbox .checkbox{
     position:absolute;
-    left: 235px;
+    left: 230px;
     z-index: 1;
     opacity: 1;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    outline: none;
+    content: "✔";
    }
-
  .buttons{
 	margin-top: 10px;
 	padding: 10px;
 	margin-left: 10px;
 	background-color: darkblue;
 	cursor: pointer;
+    color: white;
  }
  .buttons:hover{
     filter: brightness(70%);
@@ -297,6 +302,7 @@ header {
 	padding: 10px;
 	margin-left: 10px;
 	background-color: darkblue;
+    color: white;
 	cursor: pointer;
  }
  .buttonClear:hover{
